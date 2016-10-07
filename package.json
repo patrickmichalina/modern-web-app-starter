@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node ./server/server",
     "jspm": "jspm",
+    "update": "npm update && jspm update",
     "release": "standard-version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -27,6 +28,10 @@
   "jspm": {
     "name": "modern-web-app-starter",
     "main": "app.js",
+    "dependencies": {
+      "css": "github:systemjs/plugin-css@^0.1.30",
+      "text": "github:systemjs/plugin-text@^0.0.9"
+    },
     "devDependencies": {
       "plugin-babel": "npm:systemjs-plugin-babel@^0.0.16"
     }

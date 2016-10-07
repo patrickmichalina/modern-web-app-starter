@@ -1,1 +1,1 @@
-console.log('yay!');
+import BannerComponent from './components/banner/banner.controller';

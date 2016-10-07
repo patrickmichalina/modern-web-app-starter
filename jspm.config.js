@@ -1,7 +1,8 @@
 SystemJS.config({
   paths: {
     "npm:": "jspm_packages/npm/",
-    "app/": "app/"
+    "app/": "app/",
+    "github:": "jspm_packages/github/"
   },
   browserConfig: {
     "baseURL": "/"
@@ -27,8 +28,12 @@ SystemJS.config({
 SystemJS.config({
   packageConfigPaths: [
     "npm:@*/*.json",
-    "npm:*.json"
+    "npm:*.json",
+    "github:*/*.json"
   ],
-  map: {},
+  map: {
+    "css": "github:systemjs/plugin-css@0.1.30",
+    "text": "github:systemjs/plugin-text@0.0.9"
+  },
   packages: {}
 });
