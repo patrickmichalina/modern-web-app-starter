@@ -1,0 +1,34 @@
+{
+  "name": "modern-web-app-starter",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server/server",
+    "jspm": "jspm",
+    "release": "standard-version",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickmichalina/modern-web-app-starter.git"
+  },
+  "author": "Patrick Michalina <patrickmichalina@mac.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patrickmichalina/modern-web-app-starter/issues"
+  },
+  "homepage": "https://github.com/patrickmichalina/modern-web-app-starter#readme",
+  "devDependencies": {
+    "http2": "^3.3.6",
+    "jspm": "^0.17.0-beta.29",
+    "standard-version": "^3.0.0"
+  },
+  "jspm": {
+    "name": "modern-web-app-starter",
+    "main": "app.js",
+    "devDependencies": {
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.16"
+    }
+  }
+}
