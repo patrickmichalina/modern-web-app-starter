@@ -22,7 +22,7 @@
   "devDependencies": {
     "http2": "^3.3.6",
     "jspm": "^0.17.0-beta.29",
-    "standard-version": "^3.0.0"
+    "standard-version": "^4.0.0"
   },
   "jspm": {
     "name": "modern-web-app-starter",
